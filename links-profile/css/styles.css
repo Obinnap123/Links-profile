@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(211, 205, 205);
+}
+a:hover,
+a:focus{
+    color: aliceblue;
+    
+}
+.links a{
+    border: 1px solid black; 
+    padding: 0.25rem;
+    border-radius: 4px;
+    background-color: grey;
+    color: white;
+   margin-bottom: 1rem;
+}
+.container{
+    width: 24%;
+    /* border: 1px solid black; */
+    margin: 10rem auto;
+    text-align: center;
+}
+.container2{
+    border: 1px solid;
+    width: 75%;
+    margin:auto;
+    padding: 3rem;
+    background-color: rgba(128, 128, 128, 0.171);
+}
+.container2 img{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+}
+.text{
+    text-wrap: nowrap;
+    color: rgb(211, 205, 205);
+   margin-bottom: 1.5rem;
+}
+.container2 h4{
+    color: yellow;
+}
